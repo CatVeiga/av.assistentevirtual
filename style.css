@@ -153,7 +153,6 @@ a:focus, a:hover, a:visited {
 @media (min-width: 1200px) {
     p {
         font-size: 20px;
-        text-align: justify;
     }
 
     li > a {
