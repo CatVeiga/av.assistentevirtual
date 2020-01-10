@@ -74,12 +74,13 @@ li > a:hover {
 
 .text_about{ 
     color: #fff;
+    text-align: justify;
 }
 
 /***/
 .cont_serv {
     background: rgb(234,172,156);
-background: linear-gradient(90deg, rgba(234,172,156,1) 35%, rgba(238,218,162,1) 100%);
+    background: linear-gradient(90deg, rgba(234,172,156,1) 35%, rgba(238,218,162,1) 100%);
 }
 
 .header_1 {
@@ -149,4 +150,20 @@ a:focus, a:hover, a:visited {
     p {
         font-size: 20px;
     }
+
+    li > a {
+        font-size: 20px;
+    }
+
+    .text_about {
+        font-size: 20px;
+    }
+
+    .serv_list {
+        font-size: 20px;
+    }
+
+
+
+
 }
