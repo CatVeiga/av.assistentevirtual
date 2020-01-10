@@ -1,0 +1,148 @@
+html, 
+body {
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1, 
+h2,
+h3 {
+    text-align: center; 
+    font-family: 'Anton', sans-serif;
+    color: #B49D73;
+}
+
+h4,
+h5,
+h6 {
+    color:#EEDAA2;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+
+/** navbar section **/
+.navbar {
+    background-color: #EAAC9C!important;
+}
+.logo {
+    width: 90%;
+}
+
+li > a {
+    text-transform: uppercase;
+    color: #fff!important;
+}
+
+li > a:hover {
+    color: #B49D73!important;
+}
+
+/**Jumbotron section**/
+.card-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?cs=srgb&dl=blank-business-composition-computer-373076.jpg&fm=jpg');
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0%;
+}
+
+.text_1 {
+    font-size: 20px;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #EAAC9C;
+    text-transform: uppercase;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #B49D73;
+    color: #fff!important;
+}
+
+/**about section**/
+.col_1 {
+    background-color: #B49D73;    
+}
+
+.col_2 {
+    background-color: #EAAC9C;
+}
+
+.text_about{ 
+    color: #fff;
+}
+
+/***/
+.cont_serv {
+    background: rgb(234,172,156);
+background: linear-gradient(90deg, rgba(234,172,156,1) 35%, rgba(238,218,162,1) 100%);
+}
+
+.header_1 {
+    color: #fff;
+    border: none;
+}
+
+
+.serv_list > ul > li {
+    list-style-type: circle;
+}
+
+.fa-book-open,
+.fa-shipping-fast,
+.fa-broom,
+.fa-mail-bulk {
+    color: #EAAC9C;
+}
+
+/**contacts**/
+.contact_color{
+    background-color:#B49D73;
+    color: #fff;
+}
+
+.contact_text {
+    color: #EAAC9C;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.buttons > i {
+    color: #EAAC9C;
+} 
+
+/**faq**/
+.faq_card {
+    background-color: #EAAC9C!important;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+/**footer section**/
+
+footer {
+    background-color: #EAAC9C!important;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.fa-instagram,
+.fa-linkedin-in {
+    color: #EEDAA2;
+}
+
+.flex-center > a {
+    padding: 10px;
+}
+
+.flex-center > a:active,
+a:focus, a:hover, a:visited {
+    text-decoration: none;
+}
+
