@@ -146,6 +146,10 @@ a:focus, a:hover, a:visited {
     text-decoration: none;
 }
 
+.footer_copy {
+    color: #EEDAA2;
+}
+
 @media (min-width: 1200px) {
     p {
         font-size: 20px;
@@ -164,8 +168,5 @@ a:focus, a:hover, a:visited {
     .serv_list {
         font-size: 20px;
     }
-
-
-
 
 }
