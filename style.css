@@ -149,6 +149,7 @@ a:focus, a:hover, a:visited {
 @media (min-width: 1200px) {
     p {
         font-size: 20px;
+        text-align: justify;
     }
 
     li > a {
@@ -157,6 +158,7 @@ a:focus, a:hover, a:visited {
 
     .text_about {
         font-size: 20px;
+        text-align: justify;
     }
 
     .serv_list {
