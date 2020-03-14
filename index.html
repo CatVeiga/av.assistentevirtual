@@ -9,22 +9,22 @@
     <script src="https://kit.fontawesome.com/e4c9321bf2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./assets/AV Assistente Virtual logo.png"><!--change your favicon here-->
-    <link href="https://fonts.googleapis.com/css?family=Anton|Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section><!--header section-->
+    <section><!--navbar section-->
         <header>
 
             <nav class="navbar navbar-expand-lg navbar-light"><!--navbar section-->
                 <a href="#" class="navbar-brand"><!--icon for menu-->
-                    <img src="./assets/AV Assistente Virtual logo.png" alt="logo" class="logo">
+                    <img src="./assets/AV Assistente Virtual logo.png" alt="logo" class="logo img-fluid">
                 </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
                                 <a href="#about" class="nav-link">Sobre</a>
                             </li>
@@ -32,7 +32,7 @@
                                 <a href="#services" class="nav-link">Serviços</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#faq" class="nav-link">FAQ</a>
+                                <a href="#faq" class="nav-link">FAQ's</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#contact" class="nav-link">Contactos</a>
@@ -42,250 +42,366 @@
                             </li>-->
                         </ul>                        
                     </div>
-            </nav><!--end navbar section-->
-
-           <div class="card card-image"><!--jumbotron section-->
-                <div class="text-white text-center py-5 px-4">
-                    <div class="py-5">
-                        <h2>Assistente Virtual</h2>
-                        <h4 class="card-title my-4 py-2">Ana Catarina Veiga</h4>
-                        <p class="text_1 mb-4 pb-2 px-md-5 mx-md-5">Não tem tempo? Cansado de tarefas que lhe ocupam um dia inteiro? Nós temos a solução.</p>
-                        <a href="#services" class="btn btn-warning py-3">Saber mais</a>
-                    </div>
-                </div>
-           </div><!--jumbotron section-->
+            </nav><!--end navbar section-->       
 
         </header>
-    </section><!--header section-->
+    </section><!--navbar section-->
+    
+    <section><!--carousel section-->
 
-    <section id="about"><!---about section-->
-        <div class="container mt-5 pt-5">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">                    
+                    <div class="view flex-center mt-3">
+                        <ul class="animated fadeInUp col-md-12 list-unstyled">
+                            <li>
+                                <h2 class="logo-text text-right pt-3">Assistente Virtual</h2>
+                            </li>
+                            <li>
+                                <h1 class="logo text-right pt-3">Ana Catarina Veiga</h1>
+                            </li>
+                            <li>
+                                <p class="text_logo text-right pt-3">Não tem tempo? Está cansado de realizar tarefas que lhe ocupam um dia inteiro? <br>
+                                Nós temos a solução!</p>
+                            </li>
+                            <li class="text-right pt-3">
+                                <a href="#about" class="btn btn_carousel float-right">Saber mais </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                   <div class="view flex-center mt-3">
+                       <ul class="animated fadeInUp col-md-12 list-unstyled">
+                           <li>
+                               <h2 class="logo-text text-right pt-3">Assistente Virtual</h2>
+                           </li>
+                           <li>
+                               <h1 class="logo text-right pt-3">Ana Catarina Veiga</h1>
+                           </li>
+                           <li>
+                               <p class="text_logo text-right pt-3">Prestamos serviços nas áreas: <span>Administrativas, Comerciais, Pessoais e Marketing Digital</span></p>
+                           </li>
+                           <li class="text-right pt-3">
+                               <a href="#services" class="btn btn_carousel float-right">Saber Mais</a>
+                           </li>
+                       </ul>
+                   </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view flex-center mt-3 ">
+                        <ul class="animated fadeInUp col-md-12 list-unstyled">
+                            <li>
+                                <h2 class="logo-text text-right pt-3">Assistente Virtual</h2>
+                            </li>
+                            <li>
+                                <h1 class="logo text-right pt-3">Ana Catarina Veiga</h1>
+                            </li>
+                            <li>
+                                <p class="text_logo text-right pt-3">Sabe o que é um Assistente Virtual? E como pode obter os serviços?</p>
+                            </li>
+                            <li class="text-right">
+                                <a href="#faq" class="btn btn_carousel float-right">Saber Mais</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section><!--carousel section-->
+
+    <section><!--team section-->
+        <div class="container my-5 p-5">
+            <div class="text-center">
+                <h3 class="font-weight-bold text-center text-uppercase mb-4">Equipa</h3>
+                <hr class="w-header my-4">
+                <p class="text-center text-uppercase mb-5 pb-2 text-muted">Conheça a nossa equipa</p>
+                <div class="row">
+                    <div class="col-lg-6 mb-4">                        
+                        <img src="./assets/me.png" alt="team photo" class="img-fluid mx-auto z-depth-1-half">
+                        <h6 class="mt-3">Ana Catarina Veiga</h6>
+                            <small>CEO & Founder | Assistente Virtual</small>
+                            <ul class="list-unstyled d-flex justify-content-center mt-3 mb-0"> 
+                                <li><a href="https://github.com/cveiga819" target="_blank"><i class="fab fa-github mx-2"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/ana-catarina/" target="_blank"><i class="fab fa-linkedin-in mx-2"></i></a></li>
+                                <li><a href="https://www.instagram.com/av_assistentevirtual" target="_blank"><i class="fab fa-instagram mx-2"></i></a></li>
+                            </ul>
+                    </div>
+                    <div class="col-lg-6 mb-4">                            
+                            <p class="text-justify align-middle pt-2"> Tem como formação base técnicas administrativas, frequentou um estágio extra-curricular num banco
+                                português, que lhe deu experiência na área da banca, administrativa e assistente. Mais tarde frequentou a licenciatura de Comunicação Social.
+                                <hr>
+                                Passou por algumas empresas, call-center, lojas, que lhe deu experiências, nas mais diversas áreas.
+                                <hr>
+                                Em 2017, ganhou uma bolsa de estudos da Google, em Front-End Web Developer, que lhe confere também experiência na área de webDeveloper. Desde então,
+                                tem vindo a frequentar algumas formações, cursos. 
+                                <hr>
+                                Caracteriza-se por ser uma pessoa, autodidata, empreendedora, organizada.
+                            </p>                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--team section-->
+
+    <section id="about"><!--about section-->
+        <div class="container my-5 py-5 grey z-depth-1"> 
             <div class="row">
-                <div class="col-12">
-                    <div class="card z-depth-2">
-                        <div class="card-body p-0">
-                            <div class="row">
-                                <div class="col-lg-6 py-5 px-md-5 col_1">
-                                    <h4 class="ml-3 mb-4 pb-2">O que é um assistente virtual?</h4>
-                                    <p class="text_about text-justify">
-                                        É um profissional que presta serviços nas mais diversas áreas (administrativas, comerciais, marketing,
-                                        pessoal), entre outras. Trabalha essencialmente com pequenas empresas, freelancers, empreendedores que 
-                                        estejam a começar a sua actividade, mas também com pessoas singulares que necessitem de apoio, bloggers,
-                                        influencers, etc. 
-                                        Não obstante, o cliente paga pelo serviço contratado, sem gastos adicionais, sem contratações ou a necessidade
-                                        de ter um lugar fisico para o Assistente poder trabalhar.
-                                    </p>
-                                </div>
-                                <div class="col-lg-6 py-5 px-md-5 col_2">
-                                    <h4 class="ml-3 mb-4 pb-2">Como pode um Assistente Virtual ajudar?</h4>
-                                    <p class="text_about text-justify">
-                                        Os Assistentes Virtuais, assumem as tarefas que consomem muito tempo ao empreendedor seja, por não serem
-                                        o forte dele, seja por falta de tempo. Desta forma, as tarefas são delegadas a um profissional com conhecimento,
-                                        habilidade e tempo, para entregar as mesmas, com eficácia e de forma ágil.
-                                        Assim, o empreendedor ganha mais tempo e tranquilidade para se dedicar a tarefas que o ajudem a atingir as suas metas 
-                                        e os seus objectivos, sem perder o seu tempo.
-                                    </p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                <div class="col-lg-6 py-5 px-md-5">
+                    <h4 class="ml-3 mb-4 pb-2">O que é um assistente virtual?</h4>
+                        <p class="text_about text-justify">
+                            Profissional que presta serviços nas mais diversas áreas (administrativas, comerciais, marketing,
+                            pessoal), entre outras. Trabalha essencialmente com pequenas empresas, freelancers, empreendedores que 
+                            estejam a começar a sua actividade. 
+                            Não obstante, o cliente paga pelo serviço contratado, sem gastos adicionais, sem contratações ou a necessidade
+                            de ter um lugar fisico para o Assistente poder trabalhar.
+                        </p>
+                        <a href="#services" class="btn btn_carousel">Saber mais</a>
+                </div>
+                <div class="col-lg-6 py-5 px-md-5">
+                    <img src="https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?cs=srgb&dl=ballpen-blur-close-up-computer-461077.jpg&fm=jpg" class="img-fluid" alt="office">
                 </div>
             </div>
-        </div>
-
-        <div class="container mt-5 pt-5 z-depth-1">
-            <h4>Ferramentas que usamos</h4>
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1800">
-                <div class="carousel-inner">
-                    <div class="carousel-item active py-5">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                                <img src="./assets/drive.png" alt="logo" class="img-fluid px-4" style="width:50%">
-                            </div>
-                            <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                                <img src="./assets/calendar.jpg" alt="logo" class="img-fluid px-4" style="width:65%">
-                            </div>
-                            <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                                <img src="./assets/evernote.png" alt="logo" class="img-fluid px-4" style="width:65%">
-                            </div>
-                            <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center">
-                                <img src="./assets/trello.png" alt="logo" class="img-fluid px-4" style="width:50%">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!---about section-->
-
-    <section id="services"><!--services section-->
-        <div class="container-fluid py-5 my-5 cont_serv">
-            <h2 class="text-center py-3">Serviços</h2>
-            <h5 class="text-center text-white py-3">Aqui poderá ver com detalhe todos os serviços que prestamos.</h5>
+        </div>  
+          
+        <div class="container my-5 py-5 z-depth-1"> 
             <div class="row">
-                <div class="col-lg-3 mb-1 mt-2 p-2">
-                    <div class="card text-center">
-                        <div class="card-header header_1">
-                            <h5>Administrativo</h5>
-                        </div>
-                        <i class="fas fa-book-open fa-3x py-3"></i>
-                        <div class="card-body serv_list py-3 text-justify">
-                            <ul>
-                                <li>Gestão de e-mails;</li>
-                                <li>Transcrição de webinars e workshops;</li>
-                                <li>Revisão de textos;</li>
-                                <li>Pesquisas;</li>
-                                <li>Acompanhamento de entregas;</li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="col-lg-6 py-5 px-md-5">
+                    <img src="https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?cs=srgb&dl=macbook-pro-beside-papers-669619.jpg&fm=jpg" class="img-fluid">
                 </div>
-                <div class="col-lg-3 mb-1 mt-2 p-2">
-                    <div class="card text-center">
-                        <div class="card-header header_1">
-                            <h5>Comerciais</h5>
-                        </div>
-                        <i class="fas fa-shipping-fast fa-3x py-3"></i>
-                        <div class="card-body serv_list py-3 text-justify">
-                            <ul>
-                                <li>Criação de apresentações em PowerPoint;</li>
-                                <li>Cadastro de Clientes;</li>
-                                <li>Planeamento de eventos;</li>
-                                <li>Agendamento de reuniões;</li>
-                                <li>Marcação de compromissos;</li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="col-lg-6 py-5 px-md-5">
+                    <h4 class="ml-3 mb-4 pb-2">Como pode um Assistente Virtual ajudar?</h4>
+                    <p class="text_about text-justify">
+                        Assume as tarefas que consomem muito tempo ao empreendedor seja, por não serem
+                        o forte dele, seja por falta de tempo. Desta forma, as tarefas são delegadas a um profissional com conhecimento,
+                        habilidade e tempo, para entregar as mesmas, com eficácia e de forma ágil.
+                        Assim, o empreendedor ganha mais tempo e tranquilidade para se dedicar a tarefas que o ajudem a atingir as suas metas 
+                        e os seus objectivos, sem perder o seu tempo.
+                    </p> 
+                    <a href="#services" class="btn btn_carousel">Saber mais</a>
                 </div>
-                <div class="col-lg-3 mb-1 mt-2 p-2">
-                    <div class="card text-center">
-                        <div class="card-header header_1">
-                            <h5>Pessoal</h5>                            
-                        </div>
-                        <i class="fas fa-broom fa-3x py-3"></i>
-                        <div class="card-body serv_list py-3 text-justify">
-                            <ul>
-                                <li>Agendamentos diversos;</li>
-                                <li>Orçamentos;</li>
-                                <li>Cancelamento de serviços;</li>
-                                <li>Reservas avião, hotel;</li>
-                                <li>Contratação de serviços domésticos;</li>
-                            </ul>
-                        </div>
+            </div>
+        </div>
+    </section><!--about section-->
+
+    <section><!--Ferramentas -->
+        <div class="container py-5 my-5">
+            <div class="p-md-3 mx-md-5 text-lg-left">
+                <h3 class="text-center text-uppercase mb-5">Ferramentas</h3>
+                <hr class="w-header mb-3">
+                <div class="row text-center d-flex justify-content-center">
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <img src="./assets/google-drive.png" class="img-fluid" alt="google drive">
                     </div>
-                </div>
-                <div class="col-lg-3 mb-1 mt-2 p-2">
-                    <div class="card text-center">
-                        <div class="card-header header_1">
-                            <h5>Marketing Digital</h5>
-                        </div>
-                        <i class="fas fa-mail-bulk fa-3x py-3"></i>
-                        <div class="card-body serv_list py-3 text-justify">
-                            <ul>
-                                <li>Responder a comentários;</li>
-                                <li>Agendar publicações nas redes sociais;</li>
-                                <li>Elaboração de newsletter;</li>
-                                <li>Responder a emails;</li>
-                                <li>Contactos através de whatsapp;</li>
-                            </ul>
-                        </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <img src="./assets/gmail.png" class="img-fluid" alt="gmail">
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <img src="./assets/office.png" class="img-fluid" alt="ms-office">
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <img src="./assets/skype.png" class="img-fluid" alt="skype">
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <img src="./assets/slack.png" class="img-fluid" alt="slack">
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <img src="./assets/trello.png"  class="img-fluid" alt="trello">
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                        <img src="./assets/whatsapp.png" class="img-fluid"  alt="whatsapp">
                     </div>
                 </div>
             </div>
         </div>
-    </section><!--services section-->
+    </section><!--Ferramentas -->
+
+    <section id="services"><!-- services section-->
+        <div class="container pt-5 my-5">
+            <h3 class="text-center text-uppercase mb-5">Serviços</h3>
+            <hr class="w-header">
+            <div class="p-md-3 mx-md-5">
+                <div class="row">
+                    <div class="col-md-6 mb-5 text-right">
+                        <h4 class="mb-3"><i class="fas fa-clipboard-list"></i> Administrativos</h4>
+                        <ul class="list-unstyled">
+                            <li>Gestão de e-mails</li>
+                            <li>Criação de apresentações em Powerpoint</li>
+                            <li>Pesquisas na internet</li>
+                            <li>Organização de agenda, e-mail</li>
+                            <li>Transcrição de webinars e workshops</li>
+                            <li>Digitação, Revisão de textos</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mb-5 text-left">
+                        <h4 class="mb-3"><i class="fas fa-dolly"></i> Comercias</h4>
+                        <ul class="list-unstyled">
+                            <li>Atendimento a clientes</li>
+                            <li>Cadastro de informações em bases de dados</li>
+                            <li>Agendamento de reuniões</li>
+                            <li>Acompanhamento de entregas</li>
+                            <li>Auxilio na procura de candidatos</li>
+                            <li>Cadastro e actualização de clientes</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mb-5 text-right">
+                        <h4 class="mb-3"><i class="far fa-calendar-check"></i> Pessoais</h4>
+                        <ul class="list-unstyled">
+                            <li>Agendamentos diversos</li>
+                            <li>Reservas de avião e hotel</li>
+                            <li>Criação de itinerário</li>
+                            <li>Contratação de serviços domésticos</li>
+                            <li>Compras diversas</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mb-5 text-left">
+                        <h4 class="mb-3"><i class="fas fa-bullhorn"></i> Marketing Digital</h4>
+                        <ul class="list-unstyled">
+                            <li>Redação de newsletter</li>
+                            <li>Responder a comentários nas redes sociais</li>
+                            <li>Agendar pulicações nas redes sociais</li>
+                            <li>Responder a e-mails</li>
+                            <li>Envio de convites, presentes e outros</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section><!--subscribe section-->
+        <div class="container-fluid mt-3 mb-2">
+            <div class="subscribe_form">
+                <div class="mask py-5">
+                    <div class="container text-center my-5">
+                        <h4 class="text-center text-uppercase">Subscreva</h4>
+                        <p class="text-white text-center pt-2 mb-2">Subscreva a nossa newsletter e receba as últimas novidades</p>
+
+                        <form action="" method="post" class="input mb-5" id="sub_form" target="_blank">
+                            <div class="form-row">
+                                <div class="col-md-4 ml-auto">
+                                    <div class="input-group input-group-lg">
+                                        <input type="email" name="email" class="form-control form-control-lg border-0" placeholder="Email Address">
+
+                                    </div>
+                                </div>
+                                <div class="col-md-2 mr-auto">
+                                    <button class="btn btn_carousel" id="submit-form">Subscrever</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="faq"><!--faq sections-->
         <div class="container my-5 py-5">
-            <h2>FAQ</h2>
-            <hr>
-            <p class="text-center">Tem alguma questão? Nós temos a resposta, ficou alguma questão por esclarecer? Entre em contacto connosco.</p>
+            <h3 class="text-center mb-5">FAQ</h3>
+            <hr class="w-header mb-5">
             <div class="row">
-                <div class="col-md-6 col-lg-4 my-5 py-5">
-                    <h6 class="mb-4 card-header faq_card">Como posso contratar os serviços?</h6>
-                    <p class="text-muted">É fácil. Basta entrar em contacto connosco. Assim, que tivermos oportunidade entraremos
-                        o mais rapidamente possivel consigo, a fim de o poder esclarecer.</p>
-                </div>
-                <div class="col-md-6 col-lg-4 my-5 py-5">
-                    <h6 class="mb-4 card-header faq_card">Como se realiza o contacto, entre contratante e prestador?</h6>
-                    <p class="text-muted">O contacto será sempre feito remotamente, através dos meios disponiveis, seja via skype,
-                        whatsapp, instagram ou e-mail. 
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <h5 class="mb-3">Como posso contratar os serviços da Assistente Virtual?</h5>
+                    <p class="text-muted">Basta enviar um e-mail com os dados dos serviços pretendidos, a duração e toda a informação que ache pertinente.
+                        Pode ainda enviar uma mensagem através das nossas redes sociais, e outros meios disponibilizados aqui na página. Assim, que possivel entraremos em 
+                        contacto consigo.
                     </p>
                 </div>
-                <div class="col-md-6 col-lg-4 my-5 py-5">
-                    <h6 class="mb-4 card-header faq_card">Quais os custos inerentes ao serviço? Há custos adicionais?</h6>
-                    <p class="text-muted">Mediante aquilo que o cliente pretende, assim lhe daremos um orçamento. O cliente, só paga o serviço contratado.
-                        sem surpresas.
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <h5 class="mb-3">Como posso entrar em contacto com a Assistente?</h5>
+                    <p class="text-muted">Sempre que necessitar de entrar em contacto pode fazê-lo durante os dias úteis, das 9h até às 20h, através de Skype, Whatsapp,
+                        e Slack.
                     </p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 mb-5 py-5">
-                    <h6 class="mb-4 card-header faq_card">Quais as ferramentas que usam?</h6>
-                    <p class="text-muted">Esssencialmente usamos, as ferramentas da Google, Google Drive, Google Docs, Google Calendar,
-                        Trello, Evernote, e outras que nos possam ser úteis.</p>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <h5 class="mb-3">Qual o prazo de entrega do serviço?</h5>
+                    <p class="text-muted">O prazo vai sempre depender da complexidade do mesmo. Mas geralmente, as tarefas são entregues em 24 horas.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <h5 class="mb-3">Como são efectuados os pagamentos?</h5>
+                    <p class="text-muted">Os pagamentos são efectuados através de transferência bancária. E deverá ser pago 50% do valor total no acto da assinatura
+                        do contrato.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <h5 class="mb-3">Procuro um serviço, mas o mesmo não consta na lista.</h5>
+                    <p class="text-muted">Há serviços que não foram referenciados, mas isso não significa que não o fazemos.
+                        Entre em contacto connosco e verificaremos a disponibilidade da execução do mesmo.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <h5 class="mb-3">os serviços são pagos à hora ou são pagos consoante as tarefas?</h5>
+                    <p class="text-muted">O cliente irá pagar apenas o serviço contratado, e em alguns casos especificos poderá ser feito o pagamento à hora.</p>
                 </div>
             </div>
         </div>
-    </section><!--faq sections-->
+    </section>
 
-    <section id="contact"><!--contact form-->
-        <div class="container my-5 py-5 z-depth-1">
-            <div class="row d-flex justify-content-center mb-4">
-                <div class="col-md-6 text-center py-5 contact_color">
-                    <p class="contact_text">email@email.com</p>
-                    <p>Entre em contacto connosco através do email, se preferir pode ligar, ou deixar uma mensagem numa das
-                        nossas redes sociais.
-                    </p>
-                    <a href="" class="mx-1 buttons" role="button"><i class="fab fa-instagram fa-2x"></i></a>
-                    <a href="" class="mx-1 buttons" role="button"><i class="fab fa-whatsapp fa-2x"></i></a>
-                    <a href="" class="mx-1 buttons" role="button"><i class="fab fa-skype fa-2x"></i></a>
-                    
+    <section id="contact"><!---contact section-->
+        <div class="container my-5 py-5">
+            <div class="px-md-5 mx-md-5 text-center text-lg-left">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-6 text-center">
+                        <h3 class="text-center mb-5 text-uppercase">Contactos</h3>
+                        <hr class="w-header mb-5">
+                        <p class="text-muted">Se quiser entrar em contacto connosco, envie-nos uma mensagem.</p>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-    </section><!--contact form-->
-
-    <section><!--testimonials section-->
-
-    </section><!--testimonials section-->
-
-    <section><!--footer section-->
-        <footer class="page-footer font-small">
-            <div class="container">
                 <div class="row">
-                    <div class="col-md-12 py-5">
-                        <div class="mb-5 flex-center text-center">
-                            <a href="#" class="inst-ic">
-                                <i class="fab fa-instagram  fa-3x"></i>
-                            </a>
-                            <a href="#" class="link-ic">
-                                <i class="fab fa-linkedin-in fa-3x"></i>
-                            </a>
-                        </div>
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <form action="" id="contact_form">
+                            <div class="md-form md-outline mt-3 mb-3">
+                                <input type="email" name="email" id="form-email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="md-form md-outline mb-3">
+                                <input type="text" name="assunto" id="form-subject" class="form-control" placeholder="Assunto">
+                            </div>
+                            <div class="md-form md-outline mb-3">
+                                <textarea name="mensagem" id="form-message" placeholder="mensagem" cols="30" rows="3" class="md-textarea form-control"></textarea>
+                            </div>
+                            <button class="btn btn_carousel" type="submit" id="send_form">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center"> 
+                        <p class="text-muted text-center">Pode enviar mensagem directamente para o nosso e-mail</p>
+                        <p class="text-center text-muted">
+                            <i class="far fa-envelope"></i> contact.av.assistentevirtual@gmail.com
+                        </p>
+                        <p class="text-center text-muted">
+                            <i class="fas fa-phone-alt"></i> brevemente disponível 
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                <a href="https://github.com/cveiga819" target="_blank" class="footer_copy">Ana Catarina Veiga</a>
+        </div>
+    </section>    
 
-            </div>
-        </footer>
-    </section><!--footer section-->
+    <footer class="page-footer text-center font-small "><!--footer-->
+        <div class="py-4 footer-icons">
+            <a href="https://github.com/cveiga819" target="_blank"><i class="fab fa-github mx-2"></i></a>
+            <a href="https://www.linkedin.com/in/ana-catarina/" target="_blank"><i class="fab fa-linkedin-in mx-2"></i></a>
+            <a href="https://www.instagram.com/av_assistentevirtual" target="_blank"><i class="fab fa-instagram mx-2"></i></a>                                
+        </div>
+        <div class="footer-copyright py-3">
+            <p class="font-small text-center text-white">
+                © 2020 Copyright:
+            <a href="https://github.com/cveiga819" target="_blank">Ana Catarina Veiga</a>
+            </p>
+            <p class="font-small text-center text-white">
+                Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            </p>
+        </div>
+    </footer>    
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/7.6.2/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="/__/firebase/7.6.2/firebase-analytics.js"></script>
-
-<!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>
+    
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="style.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
