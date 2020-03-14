@@ -1,172 +1,135 @@
+/**import fonts**/
+@font-face {
+    font-family: 'Brusher';
+    src: url('./assets/Brusher.ttf');
+}
+
+/** body **/
 html, 
 body {
     font-family: 'Oswald', sans-serif;
+    color: #000;
+    height: 100%;
 }
 
+/** general settings **/
 h1, 
 h2,
 h3 {
-    text-align: center; 
-    font-family: 'Anton', sans-serif;
-    color: #B49D73;
+    font-family: 'Oswald', sans-serif;
+    color: #B97;
 }
 
 h4,
 h5,
 h6 {
-    color:#EEDAA2;
-    text-align: center;
-    font-family: 'Anton', sans-serif;
+    color:#B97;
+    font-family: 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
+}
+
+p {
+    color: #000;
+    text-align: justify;
+}
+
+li > a {
+    color: #000!important;
+}
+
+li > a:hover {
+    color: #B97!important;
+} 
+
+li > a:active {
+    color: #B97!important;
 }
 
 /** navbar section **/
 .navbar {
-    background-color: #EAAC9C!important;
-}
-.logo {
-    width: 90%;
-}
-
-li > a {
+    background-color: transparent!important;
+    font-family: 'PT Sans Narrow', sans-serif;
     text-transform: uppercase;
-    color: #fff!important;
 }
 
-li > a:hover {
-    color: #B49D73!important;
-}
-
-/**Jumbotron section**/
-.card-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?cs=srgb&dl=blank-business-composition-computer-373076.jpg&fm=jpg');
-    height: 50%;
+/**carousel section**/
+.carousel-item {
+    background-image: url('./assets/close-up-photo-of-yearly-planner-beside-a-pen-1558691.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0%;
+    height: 500px;
+    padding: 10px;
 }
 
-.text_1 {
-    font-size: 20px;
-    text-align: center;
+.view {
+    height: 100%;
+    padding: 10px;
 }
 
-.btn-warning {
-    color: #fff;
-    background-color: #EAAC9C;
+.logo-text {
     text-transform: uppercase;
-    border: none;
+    color: #000;
 }
 
-.btn-warning:hover {
-    background-color: #B49D73;
+.logo {
+    font-family: 'Brusher';
+    font-size: 50px;
+}
+
+.text_logo {
+    font-size: 20px;
+}
+
+span {
+    color: #B97;
+}
+
+.btn_carousel {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #B97;
+    color: #fff!important;
+    text-transform: uppercase;
+}
+
+.btn_carousel:hover {
+    color: #000!important;
+}
+
+.btn_carousel:active {
     color: #fff!important;
 }
 
-/**about section**/
-.col_1 {
-    background-color: #B49D73;    
+/** subscribe section**/
+.input-group-lg {
+    border-radius:3px;
 }
 
-.col_2 {
-    background-color: #EAAC9C;
+.form-control {
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 13px!important;
 }
 
-.text_about{ 
-    color: #fff;
-    text-align: justify;
+.subscribe_form {
+    background-color: #222;
 }
 
-/***/
-.cont_serv {
-    background: rgb(234,172,156);
-    background: linear-gradient(90deg, rgba(234,172,156,1) 35%, rgba(238,218,162,1) 100%);
-}
-
-.header_1 {
-    color: #fff;
-    border: none;
-}
-
-
-.serv_list > ul > li {
-    list-style-type: circle;
-}
-
-.fa-book-open,
-.fa-shipping-fast,
-.fa-broom,
-.fa-mail-bulk {
-    color: #EAAC9C;
-}
-
-/**contacts**/
-.contact_color{
-    background-color:#B49D73;
-    color: #fff;
-}
-
-.contact_text {
-    color: #EAAC9C;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.buttons > i {
-    color: #EAAC9C;
-} 
-
-/**faq**/
-.faq_card {
-    background-color: #EAAC9C!important;
-    color: #fff;
-    border: none;
-    padding: 10px;
-}
 
 /**footer section**/
-
 footer {
-    background-color: #EAAC9C!important;
+    background-color: #222!important;
     color: #fff;
-    text-transform: uppercase;
 }
 
-.fa-instagram,
-.fa-linkedin-in {
-    color: #EEDAA2;
+.footer-icons > a  {
+    color: #B97;
 }
 
-.flex-center > a {
-    padding: 10px;
+.footer-copyright > p > a {
+    color: #B97;
 }
 
-.flex-center > a:active,
-a:focus, a:hover, a:visited {
-    text-decoration: none;
-}
 
-.footer_copy {
-    color: #EEDAA2;
-}
 
-@media (min-width: 1200px) {
-    p {
-        font-size: 20px;
-    }
-
-    li > a {
-        font-size: 20px;
-    }
-
-    .text_about {
-        font-size: 20px;
-        text-align: justify;
-    }
-
-    .serv_list {
-        font-size: 20px;
-    }
-
-}
