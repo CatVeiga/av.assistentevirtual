@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./assets/AV Assistente Virtual logo.png"><!--change your favicon here-->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Oswald&display=swap" rel="stylesheet">
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/776c51792ca734fa5f35f3b9e/1ae33ec1812d135fb1227606f.js");</script>
 </head>
 <body>
     <section><!--navbar section-->
@@ -284,7 +283,7 @@
                         <h4 class="text-center text-uppercase">Subscreva</h4>
                         <p class="text-white text-center pt-2 mb-2">Subscreva a nossa newsletter e receba as últimas novidades</p>
 
-                        <form action="" method="post" class="input mb-5" id="sub_form" data-netlify="true" target="_blank">
+                        <form action="" method="post" class="input mb-5" id="sub_form" data-netlify="true" data-netlify-recaptcha="true" target="_blank">
                             <div class="form-row">
                                 <div class="col-md-4 ml-auto">
                                     <div class="input-group input-group-lg">
@@ -358,7 +357,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                        <form action="" id="contact_form" data-netlify="true">
+                        <form action="" id="contact_form" data-netlify-recaptcha="true" data-netlify="true">
                             <div class="md-form md-outline mt-3 mb-3">
                                 <input type="email" name="email" id="form-email" class="form-control" placeholder="Email">
                             </div>
