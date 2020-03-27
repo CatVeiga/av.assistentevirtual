@@ -1,8 +1,7 @@
 # Assistente Virtual
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/00ec1d62-d2a0-40c2-9d53-d9a8175beda7/deploy-status)](https://app.netlify.com/sites/av-assistentevirtual/deploys)
 
 # Deployment
-[![Netlify Status](https://api.netlify.com/api/v1/badges/00ec1d62-d2a0-40c2-9d53-d9a8175beda7/deploy-status)](https://app.netlify.com/sites/av-assistentevirtual/deploys)
 
 https://av-assistentevirtual.pt/
 
