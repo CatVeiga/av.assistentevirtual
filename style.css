@@ -52,6 +52,10 @@ li > a:active {
     text-transform: uppercase;
 }
 
+.logo_nav {
+    width: 100px;
+}
+
 /**carousel section**/
 .carousel-item {
     background-image: url('./assets/close-up-photo-of-yearly-planner-beside-a-pen-1558691.jpg');
