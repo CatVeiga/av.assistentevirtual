@@ -3,7 +3,7 @@
 
 # Deployment
 
-https://av-assistentevirtual.pt/
+https://av-assistentevirtual.netlify.app/
 
 # screenshots
 (brevemente)
